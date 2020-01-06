@@ -1,0 +1,78 @@
+
+
+.title{ 
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+}
+
+h2 {
+  line-height: 20px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+}
+
+
+.couch{
+  width: 90%;
+  padding: 50px;
+  margin-right: 50px;
+}
+
+.breadcrumbs{
+  color: grey;
+}
+
+.container-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 900px;
+  margin-left: 50px;
+}
+
+.couch-img{
+  width: 300px;
+  height: 300px;
+}
+
+.result {
+  padding:  20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.couch-container-info{
+  font-weight: bold;
+}
+
+span{
+  color: white;
+  background-color: black;
+  float: right;
+}
+
+
+.post {
+  border: 2px white solid;
+  font-weight: bold;
+}
+
+.nav{
+  padding-right: 20px;
+}
