@@ -16,10 +16,10 @@ let dotenv = require('dotenv');
 // if .env file is located in root directory
 dotenv.config()
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static('frontend'));
 
 app.get('/', (req, res) =>{
-  res.send('ok');
+  res.send('Root');
 })
 
 
